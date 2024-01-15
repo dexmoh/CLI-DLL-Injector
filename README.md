@@ -1,4 +1,4 @@
-# DLL-Injector
+# CLI-DLL-Injector
 > A CLI DLL injector written in C++ for x86 and x64 architectures. Works only on Windows. The solution also contains a basic DLL project template.
 
 ## Usage
