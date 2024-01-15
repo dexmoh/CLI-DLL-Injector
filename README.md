@@ -4,15 +4,16 @@
 ## Usage
 After installing the program (see [Installation](#installation)) you can invoke the following command from anywhere in the command line:
 ```
-DLL-Injector [process name] [dll path]
+dlli [process name] [dll path]
 ```
+
 Paramaters:
-`[process name]` - Process name of the currently running process you want to inject.
-`[dll path]` - Filepath of the DLL file.
+1) `[process name]` - Process name of the currently running process you want to inject.
+2) `[dll path]` - Filepath of the DLL file.
 
 Example:
 ```
-DLL-Injector Notepad.exe C:\DLL Files\example.dll
+dlli Notepad.exe C:\DLL Files\example.dll
 ```
 
 ## Installation
@@ -26,10 +27,10 @@ To add the binaries to the path, you can:
 3) Open "Edit the system environment variables".
 4) Click on "Environment Variables..." button.
 5) Under "System variables" section look for a variable called "Path", double click it.
-6) Press the "New" button and enter the folder path to your `.exe` file. (Example of the path: `C:\DLL-Injector\`)
-7) Press "Ok" and restart any open terminal windows.
+6) Press the "New" button and enter the folder path to your `.exe` file. (Example of the path: `C:\DLL-Injector\Bin\`)
+8) Press "Ok" and restart any open terminal windows.
 
-After this you should be able to invoke the `DLL-Injector` command from anywhere in the terminal.
+After this you should be able to invoke the `dlli` command from anywhere in the terminal.
 
 ## Building
 To build the binaries in Visual Studio, you'll have to download the respository, open the `.sln` file, choose either x86 or x64 architecture and select `Build > Build Solution`.
