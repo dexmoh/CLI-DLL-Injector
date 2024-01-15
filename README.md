@@ -13,8 +13,10 @@ Paramaters:
 
 Example:
 ```
-dlli Notepad.exe C:\DLL Files\example.dll
+dlli Notepad.exe C:\DLLs\example.dll
 ```
+![image](https://github.com/dexmoh/CLI-DLL-Injector/assets/60656530/81decbf0-b51c-48ef-8da3-1bafdde5028a)
+
 
 ## Installation
 You can either download the `.exe` files from the [releases page](https://github.com/dexmoh/CLI-DLL-Injector/releases), or you can build the binaries yourself in Visual Studio (see [Building](#building)).
