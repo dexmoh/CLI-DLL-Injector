@@ -34,7 +34,7 @@ After this you should be able to invoke the `DLL-Injector` command from anywhere
 ## Building
 To build the binaries in Visual Studio, you'll have to download the respository, open the `.sln` file, choose either x86 or x64 architecture and select `Build > Build Solution`.
 
-The built binaries should be located at `$(SolutionDir)\Bin\DLL-Injector\$(Platform)\$(Configuration)\`.
+The built binaries should be located at `$(SolutionDir)Bin\$(ProjectName)\$(Configuration)-$(Platform)\`.
 
 ## Note
 I don't condone any malicious use of this software. This project is something I wanted to make for learning purposes and then decided to publish it.
