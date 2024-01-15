@@ -1,7 +1,6 @@
 #include "pch.h"
 
 #include <iostream>
-#include <chrono>
 
 DWORD WINAPI MainThread(HMODULE hModule);
 
