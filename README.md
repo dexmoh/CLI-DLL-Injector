@@ -16,7 +16,7 @@ DLL-Injector Notepad.exe C:\DLL Files\example.dll
 ```
 
 ## Installation
-You can either download the `.exe` files from the [releases page](https://github.com/dexmoh/CLI-DLL-Injector/releases), or you can build the binaries yourself in Visual Studio (see the [Building](#building)).
+You can either download the `.exe` files from the [releases page](https://github.com/dexmoh/CLI-DLL-Injector/releases), or you can build the binaries yourself in Visual Studio (see [Building](#building)).
 
 After obtaining the files, you can add the binaries to the PATH so you can use them from anywhere in the command line.
 
