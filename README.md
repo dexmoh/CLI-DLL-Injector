@@ -2,7 +2,7 @@
 > A CLI DLL injector written in C++ for x86 and x64 architectures. Works only on Windows. The solution also contains a basic DLL project template.
 
 ## Usage
-After installing the program (see [Installation](##Installation)) you can invoke the following command from anywhere in the command line:
+After installing the program (see [Installation](#installation)) you can invoke the following command from anywhere in the command line:
 ```
 DLL-Injector [process name] [dll path]
 ```
@@ -16,7 +16,7 @@ DLL-Injector Notepad.exe C:\DLL Files\example.dll
 ```
 
 ## Installation
-You can either download the `.exe` files from the [releases page](https://github.com/dexmoh/CLI-DLL-Injector/releases), or you can build the binaries yourself in Visual Studio (see the [Building](##Building)).
+You can either download the `.exe` files from the [releases page](https://github.com/dexmoh/CLI-DLL-Injector/releases), or you can build the binaries yourself in Visual Studio (see the [Building](#building)).
 
 After obtaining the files, you can add the binaries to the PATH so you can use them from anywhere in the command line.
 
